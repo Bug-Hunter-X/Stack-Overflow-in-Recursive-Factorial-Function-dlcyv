@@ -1,0 +1,3 @@
+# F# Stack Overflow Bug
+
+This repository demonstrates a common error in F#: a stack overflow exception caused by an improperly handled recursive function.  The `factorialBug.fs` file contains a recursive factorial function that will throw a `StackOverflowException` when given a negative input. The solution, provided in `factorialSolution.fs`, addresses this by adding a check for negative input and handling it appropriately.
